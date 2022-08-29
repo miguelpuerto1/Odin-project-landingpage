@@ -1,3 +1,19 @@
-.container {
-    color: blue;
+.header {
+    background-color: rgb(171, 203, 231);
+}
+
+.main {
+    background-color: rgba(0, 0, 255, 0.34);
+}
+
+.projects {
+    background-color: rgb(128, 128, 128);
+}
+
+.quote {
+    background-color: rgba(0, 128, 21, 0.467)
+}
+
+.footer {
+    background-color: rgba(165, 42, 42, 0.386);
 }
