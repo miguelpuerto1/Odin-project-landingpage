@@ -1,15 +1,57 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* header */
 
 .header {
-    background-color: rgb(171, 203, 231);
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
 }
 
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    color: #f9faf8;
+    font-size: 18px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* main */
+
 .main {
-    background-color: rgba(0, 0, 255, 0.34);
+    background-color: #1f2937;
+    height: 400px;
+    display: flex;
+}
+
+.left {
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 10px 20px
 }
 
 .projects {
@@ -21,5 +63,5 @@
 }
 
 .footer {
-    background-color: rgba(165, 42, 42, 0.386);
+    background-color: #1f2937;
 }
