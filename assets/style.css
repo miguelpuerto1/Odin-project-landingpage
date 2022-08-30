@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -9,24 +10,10 @@
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
-}
-
-ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    color: #f9faf8;
-    font-size: 18px;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #f9faf8;
 }
 
 .logo {
@@ -34,25 +21,65 @@ a {
     font-weight: 700;
 }
 
+.header ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    gap: 20px;
+}
+
 /* main */
 
 .main {
     background-color: #1f2937;
-    height: 400px;
-    display: flex;
+    height: 450px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .left {
     color: #f9faf8;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
 }
 
-button {
-    background-color: #3882f6;
-    border-radius: 12px;
-    padding: 10px 20px
+.left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
+
+.left p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #e5e7eb;
+}
+
+.main button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: #3882f6 solid;
+    height: 35px;
+    width: 120px;
+}
+
+.main img {
+    border: #f9faf8 solid 1px;
+    height: 230px;
+    width: 500px;
+    margin-left: -380px;
+}
+
+/* project section */
 
 .projects {
     background-color: rgb(128, 128, 128);
