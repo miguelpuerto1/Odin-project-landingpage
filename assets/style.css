@@ -124,7 +124,32 @@
 /* quote section */
 
 .quote {
-    background-color: rgba(0, 128, 21, 0.467)
+    background-color: #e5e7eb;
+    height: 440px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+}
+
+.author-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 70;
+    font-style: italic;
+}
+
+.author {
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
