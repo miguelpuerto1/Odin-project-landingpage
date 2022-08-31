@@ -72,11 +72,16 @@
     width: 120px;
 }
 
-.main img {
-    border: #f9faf8 solid 1px;
+.img {
     height: 230px;
     width: 500px;
     margin-left: -380px;
+    background-color: #c4c6ca7c;
+    color: #f9faf8;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Random info section */
@@ -86,7 +91,6 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .projects h1 {
@@ -151,6 +155,8 @@
     display: flex;
     justify-content: flex-end;
 }
+
+/* footer */
 
 .footer {
     background-color: #1f2937;
